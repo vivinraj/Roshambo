@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEBD01481CDE19970077E000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD01471CDE19970077E000 /* AppDelegate.swift */; };
+		FEBD014A1CDE19970077E000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD01491CDE19970077E000 /* ViewController.swift */; };
+		FEBD014D1CDE19970077E000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBD014B1CDE19970077E000 /* Main.storyboard */; };
+		FEBD014F1CDE19970077E000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBD014E1CDE19970077E000 /* Assets.xcassets */; };
+		FEBD01521CDE19970077E000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBD01501CDE19970077E000 /* LaunchScreen.storyboard */; };
+		FEBD015D1CDE19970077E000 /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD015C1CDE19970077E000 /* RoshamboTests.swift */; };
+		FEBD01681CDE19970077E000 /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBD01671CDE19970077E000 /* RoshamboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEBD01591CDE19970077E000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBD013C1CDE19970077E000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBD01431CDE19970077E000;
+			remoteInfo = Roshambo;
+		};
+		FEBD01641CDE19970077E000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBD013C1CDE19970077E000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBD01431CDE19970077E000;
+			remoteInfo = Roshambo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEBD01441CDE19970077E000 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBD01471CDE19970077E000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEBD01491CDE19970077E000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEBD014C1CDE19970077E000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEBD014E1CDE19970077E000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBD01511CDE19970077E000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEBD01531CDE19970077E000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBD01581CDE19970077E000 /* RoshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBD015C1CDE19970077E000 /* RoshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboTests.swift; sourceTree = "<group>"; };
+		FEBD015E1CDE19970077E000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBD01631CDE19970077E000 /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBD01671CDE19970077E000 /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
+		FEBD01691CDE19970077E000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBD01411CDE19970077E000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBD01551CDE19970077E000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBD01601CDE19970077E000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEBD013B1CDE19970077E000 = {
+			isa = PBXGroup;
+			children = (
+				FEBD01461CDE19970077E000 /* Roshambo */,
+				FEBD015B1CDE19970077E000 /* RoshamboTests */,
+				FEBD01661CDE19970077E000 /* RoshamboUITests */,
+				FEBD01451CDE19970077E000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBD01451CDE19970077E000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBD01441CDE19970077E000 /* Roshambo.app */,
+				FEBD01581CDE19970077E000 /* RoshamboTests.xctest */,
+				FEBD01631CDE19970077E000 /* RoshamboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBD01461CDE19970077E000 /* Roshambo */ = {
+			isa = PBXGroup;
+			children = (
+				FEBD01471CDE19970077E000 /* AppDelegate.swift */,
+				FEBD01491CDE19970077E000 /* ViewController.swift */,
+				FEBD014B1CDE19970077E000 /* Main.storyboard */,
+				FEBD014E1CDE19970077E000 /* Assets.xcassets */,
+				FEBD01501CDE19970077E000 /* LaunchScreen.storyboard */,
+				FEBD01531CDE19970077E000 /* Info.plist */,
+			);
+			path = Roshambo;
+			sourceTree = "<group>";
+		};
+		FEBD015B1CDE19970077E000 /* RoshamboTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBD015C1CDE19970077E000 /* RoshamboTests.swift */,
+				FEBD015E1CDE19970077E000 /* Info.plist */,
+			);
+			path = RoshamboTests;
+			sourceTree = "<group>";
+		};
+		FEBD01661CDE19970077E000 /* RoshamboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBD01671CDE19970077E000 /* RoshamboUITests.swift */,
+				FEBD01691CDE19970077E000 /* Info.plist */,
+			);
+			path = RoshamboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBD01431CDE19970077E000 /* Roshambo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBD016C1CDE19970077E000 /* Build configuration list for PBXNativeTarget "Roshambo" */;
+			buildPhases = (
+				FEBD01401CDE19970077E000 /* Sources */,
+				FEBD01411CDE19970077E000 /* Frameworks */,
+				FEBD01421CDE19970077E000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roshambo;
+			productName = Roshambo;
+			productReference = FEBD01441CDE19970077E000 /* Roshambo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEBD01571CDE19970077E000 /* RoshamboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBD016F1CDE19970077E000 /* Build configuration list for PBXNativeTarget "RoshamboTests" */;
+			buildPhases = (
+				FEBD01541CDE19970077E000 /* Sources */,
+				FEBD01551CDE19970077E000 /* Frameworks */,
+				FEBD01561CDE19970077E000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBD015A1CDE19970077E000 /* PBXTargetDependency */,
+			);
+			name = RoshamboTests;
+			productName = RoshamboTests;
+			productReference = FEBD01581CDE19970077E000 /* RoshamboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEBD01621CDE19970077E000 /* RoshamboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBD01721CDE19970077E000 /* Build configuration list for PBXNativeTarget "RoshamboUITests" */;
+			buildPhases = (
+				FEBD015F1CDE19970077E000 /* Sources */,
+				FEBD01601CDE19970077E000 /* Frameworks */,
+				FEBD01611CDE19970077E000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBD01651CDE19970077E000 /* PBXTargetDependency */,
+			);
+			name = RoshamboUITests;
+			productName = RoshamboUITests;
+			productReference = FEBD01631CDE19970077E000 /* RoshamboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBD013C1CDE19970077E000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vivin Raj";
+				TargetAttributes = {
+					FEBD01431CDE19970077E000 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FEBD01571CDE19970077E000 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FEBD01431CDE19970077E000;
+					};
+					FEBD01621CDE19970077E000 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FEBD01431CDE19970077E000;
+					};
+				};
+			};
+			buildConfigurationList = FEBD013F1CDE19970077E000 /* Build configuration list for PBXProject "Roshambo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBD013B1CDE19970077E000;
+			productRefGroup = FEBD01451CDE19970077E000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBD01431CDE19970077E000 /* Roshambo */,
+				FEBD01571CDE19970077E000 /* RoshamboTests */,
+				FEBD01621CDE19970077E000 /* RoshamboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBD01421CDE19970077E000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBD01521CDE19970077E000 /* LaunchScreen.storyboard in Resources */,
+				FEBD014F1CDE19970077E000 /* Assets.xcassets in Resources */,
+				FEBD014D1CDE19970077E000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBD01561CDE19970077E000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBD01611CDE19970077E000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBD01401CDE19970077E000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBD014A1CDE19970077E000 /* ViewController.swift in Sources */,
+				FEBD01481CDE19970077E000 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBD01541CDE19970077E000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBD015D1CDE19970077E000 /* RoshamboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBD015F1CDE19970077E000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBD01681CDE19970077E000 /* RoshamboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEBD015A1CDE19970077E000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBD01431CDE19970077E000 /* Roshambo */;
+			targetProxy = FEBD01591CDE19970077E000 /* PBXContainerItemProxy */;
+		};
+		FEBD01651CDE19970077E000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBD01431CDE19970077E000 /* Roshambo */;
+			targetProxy = FEBD01641CDE19970077E000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEBD014B1CDE19970077E000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBD014C1CDE19970077E000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBD01501CDE19970077E000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBD01511CDE19970077E000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBD016A1CDE19970077E000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEBD016B1CDE19970077E000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBD016D1CDE19970077E000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roshambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VR.Roshambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEBD016E1CDE19970077E000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roshambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VR.Roshambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEBD01701CDE19970077E000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoshamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VR.RoshamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshambo.app/Roshambo";
+			};
+			name = Debug;
+		};
+		FEBD01711CDE19970077E000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoshamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VR.RoshamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshambo.app/Roshambo";
+			};
+			name = Release;
+		};
+		FEBD01731CDE19970077E000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoshamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VR.RoshamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Roshambo;
+			};
+			name = Debug;
+		};
+		FEBD01741CDE19970077E000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoshamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VR.RoshamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Roshambo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBD013F1CDE19970077E000 /* Build configuration list for PBXProject "Roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBD016A1CDE19970077E000 /* Debug */,
+				FEBD016B1CDE19970077E000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBD016C1CDE19970077E000 /* Build configuration list for PBXNativeTarget "Roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBD016D1CDE19970077E000 /* Debug */,
+				FEBD016E1CDE19970077E000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEBD016F1CDE19970077E000 /* Build configuration list for PBXNativeTarget "RoshamboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBD01701CDE19970077E000 /* Debug */,
+				FEBD01711CDE19970077E000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEBD01721CDE19970077E000 /* Build configuration list for PBXNativeTarget "RoshamboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBD01731CDE19970077E000 /* Debug */,
+				FEBD01741CDE19970077E000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBD013C1CDE19970077E000 /* Project object */;
+}
