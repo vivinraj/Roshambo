@@ -22,10 +22,14 @@ class ViewController: UIViewController {
        return Shape[randomNumber]
     }
     
+    @IBAction func scissorsButton(sender: AnyObject) {
+        performSegueWithIdentifier("scissorsButtonSegue", sender: self)
+    }
+    
+    
     @IBAction func rockButton(sender: AnyObject) {
         performSegueWithIdentifier("rockButtonSegue", sender: self)
     }
-    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
@@ -47,6 +51,23 @@ class ViewController: UIViewController {
             }
         }
         
+        if segue.identifier == "scissorsButtonSegue" {
+            
+            let controller = segue.destinationViewController as! ResultsViewController
+            let computerShape = randomShape()
+            
+            if computerShape == "Scissors" {
+                controller.result = "tie"
+            }
+            else if computerShape == "Paper" {
+                controller.result = "ScissorsCutPaper"
+            }
+            else if computerShape == "Rock" {
+                controller.result = "RockCrushesScissors"
+            }
+            
+            presentViewController(controller, animated: true, completion: nil)
+        }
     }
     
     
@@ -60,15 +81,9 @@ class ViewController: UIViewController {
         
         if computerShape == "Paper"{
             controller.result = "tie"
-            
-          //  controller.imageName = "tie"
-            //controller.
-            
-            // it's a tie
         }
         else if computerShape == "Rock"{
             controller.result = "PaperCoversRock"
-            // Paper covers rock
         }
         else if computerShape == "Scissors"{
             controller.result = "ScissorsCutPaper"
@@ -79,16 +94,9 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
-    
-        
-    
-    
-
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    super.didReceiveMemoryWarning()
+    
     }
 
 
