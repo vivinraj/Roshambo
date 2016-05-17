@@ -11,21 +11,33 @@ import UIKit
 class ResultsViewController: UIViewController {
     
     var result: String?
+    var score: String?
     
     @IBOutlet var resultImage: UIImageView!
     
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func viewWillAppear(animated: Bool) {
         print("Result :\(result)")
+        print("Score:\(resultLabel)")
         
        if let result = self.result {
             self.resultImage.image = UIImage(named: "\(result)")
         }
-        
         else  {
             self.resultImage.image = nil
         }
+        
+        if let score2 = self.score {
+            self.resultLabel.text = "\(score2)"
+        }
+        else {
+            self.resultLabel.text = "Oops! something wrong"
+        }
     }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

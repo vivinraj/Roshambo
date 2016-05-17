@@ -40,14 +40,17 @@ class ViewController: UIViewController {
         
             if computerShape == "Rock"{
                 controller.result = "tie"
+                controller.score = " It's a tie"
             }
             else
             if computerShape == "Paper"{
                 controller.result = "PaperCoversRock"
+                controller.score = "You lose"
             }
             else
             if computerShape == "Scissors"{
                 controller.result = "RockCrushesScissors"
+                controller.score = "You win"
             }
         }
         
@@ -58,12 +61,16 @@ class ViewController: UIViewController {
             
             if computerShape == "Scissors" {
                 controller.result = "tie"
+                controller.score = "It's a tie"
             }
             else if computerShape == "Paper" {
                 controller.result = "ScissorsCutPaper"
+                controller.score = "You win"
+                
             }
             else if computerShape == "Rock" {
                 controller.result = "RockCrushesScissors"
+                controller.score = "You lose"
             }
             
             presentViewController(controller, animated: true, completion: nil)
@@ -81,13 +88,15 @@ class ViewController: UIViewController {
         
         if computerShape == "Paper"{
             controller.result = "tie"
+            controller.score = " It's a tie"
         }
         else if computerShape == "Rock"{
             controller.result = "PaperCoversRock"
+            controller.score = "You win"
         }
         else if computerShape == "Scissors"{
             controller.result = "ScissorsCutPaper"
-            //Scissor cuts paper
+            controller.score = "You lose"
         }
         
         presentViewController(controller, animated: true, completion: nil)
