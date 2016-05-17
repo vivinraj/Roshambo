@@ -28,6 +28,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iw4-8v-k4L">
                                 <rect key="frame" x="382" y="196" width="37" height="32"/>
                                 <state key="normal" image="Rock"/>
+                                <connections>
+                                    <action selector="rockButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O1S-ht-ukC"/>
+                                    <segue destination="kwI-q1-5PC" kind="show" identifier="rockButtonSegue" id="VFj-zl-O3s"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYI-PB-LjA">
                                 <rect key="frame" x="282" y="284" width="37" height="32"/>

@@ -22,7 +22,32 @@ class ViewController: UIViewController {
        return Shape[randomNumber]
     }
     
+    @IBAction func rockButton(sender: AnyObject) {
+        performSegueWithIdentifier("rockButtonSegue", sender: self)
+    }
     
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "rockButtonSegue" {
+            
+            let controller = segue.destinationViewController as! ResultsViewController
+            let computerShape = randomShape()
+        
+            if computerShape == "Rock"{
+                controller.result = "tie"
+            }
+            else
+            if computerShape == "Paper"{
+                controller.result = "PaperCoversRock"
+            }
+            else
+            if computerShape == "Scissors"{
+                controller.result = "RockCrushesScissors"
+            }
+        }
+        
+    }
     
     
     @IBAction func paperCompare(sender: AnyObject) {
@@ -53,6 +78,8 @@ class ViewController: UIViewController {
         presentViewController(controller, animated: true, completion: nil)
         
     }
+    
+    
     
     
         
